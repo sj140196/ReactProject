@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { database } from './firebase';
 import { ref, get } from 'firebase/database';
 
-function Authentication() {
+function Authentication() {// code for authentication 
   const [employeeId, setEmployeeId] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
